@@ -29,7 +29,7 @@ while exit:
             clast = int(input())
             for item in ng_1_data[:clast]:
                 print ('Эталонные ключевые слова: ', item['title'])
-                print ('Самые частотные слова: ',  keywords_most_frequent_with_stop_and_lemm (item['news'][1]['body'], 6, rus_stops))
+                print ('Самые частотные слова: ',  keywords_most_frequent_with_stop_and_lemm (item['news'][1]['body'], 5, rus_stops))
                 print ("")
             break
         except ValueError:
