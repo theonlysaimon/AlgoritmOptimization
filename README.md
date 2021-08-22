@@ -2,15 +2,15 @@
 
 1. Установите необходимы библиотеки с помщью pip:
 
-json
-string
-os 
-setuptools
-Cython
-nltk
-string
-re
-ymystem3
++ json
++ string
++ os 
++ setuptools
++ Cython
++ nltk
++ string
++ re
++ ymystem3
 
 2. После успешной установки файлов на свой ПК, 
 необходимо переименовать файл test.pyx -> test_module.pyx
