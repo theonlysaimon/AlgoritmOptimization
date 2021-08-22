@@ -35,13 +35,14 @@ while exit:
         except ValueError:
             print("Неверное значение")  
 
-    print("Работа завершена")
+    
     while True:
         try:
             print("Желаете продолжить? y/n")
             exitpool = input()
             if exitpool == 'n':
                 exit = False
+                print("Работа завершена")
                 break
             elif exitpool == 'y':
                 exit = True
